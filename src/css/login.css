@@ -26,7 +26,7 @@
   left: 55%;
   text-align: start;
   height: 350px;
-  width: 350px;
+  width: 380px;
 }
 .fw-light {
   font-family: "Montserrat";
@@ -42,13 +42,22 @@
   justify-content: space-between;
   margin-top: 15px;
 }
-.oauth-google,
+
 .oauth-apple {
   background-color: white;
-  height: 30px;
-  width: 160px;
+  height: 42px;
+  width: 145px;
   border-radius: 10px;
   text-align: center;
+  font-size: large;
+}
+.oauth-google {
+  background-color: white;
+  height: 42px;
+  width: 180px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: large;
 }
 .center-element {
   position: relative;
@@ -111,4 +120,13 @@
   width: 11px;
   height: 11px;
   background-color: white;
+}
+.shadow-0 {
+  box-shadow: none !important;
+}
+.shadow-0 div {
+  margin-right: 0px !important;
+}
+.border-0 {
+  border: 0px !important;
 }

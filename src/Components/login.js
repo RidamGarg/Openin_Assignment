@@ -1,6 +1,7 @@
 import React from "react";
 import googleLogo from "../google.png";
 import appleLogo from "../apple.png";
+import GoogleLogin from "./google_login";
 function login({ setLogin }) {
   return (
     <div className="container align-items-between">
@@ -14,10 +15,10 @@ function login({ setLogin }) {
           <div>
             <div className="oauth">
               <div className="oauth-google">
-                <h6 className="fw-light no-margin center-element">
-                  <img src={googleLogo} className="img-resize" /> Sign in with
-                  Google
-                </h6>
+                <GoogleLogin
+                  className="fw-light no-margin center-element"
+                  setLogin={setLogin}
+                />
               </div>
               <div className="oauth-apple">
                 <h6 className="fw-light no-margin center-element">

@@ -16,13 +16,7 @@ function Dashboard({ setLogin }) {
       <div className="dashboard-pd-20 align-items-between">
         <div className="dashboard-left-panel">
           <div>
-            <h1
-              className="pd-large"
-              style={{ cursor: "pointer" }}
-              onClick={() => setLogin(true)}
-            >
-              Board.
-            </h1>
+            <h1 className="pd-large">Board.</h1>
             <h4>
               <DashboardCustomizeOutlinedIcon /> Dashboard
             </h4>
@@ -42,6 +36,13 @@ function Dashboard({ setLogin }) {
           <div className="pb-20">
             <h4 className="fw-light text-sml">Help</h4>
             <h4 className="fw-light text-sml">Support Us</h4>
+            <h4
+              className="fw-light text-sml"
+              style={{ cursor: "pointer" }}
+              onClick={() => setLogin(true)}
+            >
+              Logout
+            </h4>
           </div>
         </div>
         <div className="dashboard-right-panel mg-20">
