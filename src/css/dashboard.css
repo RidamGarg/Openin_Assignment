@@ -1,0 +1,168 @@
+.align-items-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashboard-left-panel {
+  color: white;
+  background-color: black;
+  width: 15%;
+  height: 100%;
+  border-radius: 30px;
+  text-align: start;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dashboard-pd-20 {
+  padding: 15px;
+  width: 100%;
+}
+.pd-large {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.text-sml {
+  font-size: 14px;
+}
+.dashboard-right-panel {
+  width: 80%;
+}
+.bg-white {
+  background-color: white !important;
+}
+.mg-20 {
+  margin: 20px;
+}
+.card {
+  width: 180px;
+  height: 100px;
+  border-radius: 20px;
+  text-align: start;
+  padding: 25px;
+}
+.bg-purple {
+  background-color: #efdada;
+}
+.bg-pink {
+  background-color: #f4ecdd;
+}
+.bg-blue {
+  background-color: #dee0ef;
+}
+.bg-green {
+  background-color: #ddefe0;
+}
+.fs-sans {
+  font-family: "Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.68px;
+}
+.line-chart {
+  background-color: white;
+  border-radius: 20px;
+  width: inherit;
+  height: 380px;
+  margin-top: 20px;
+  text-align: start;
+}
+.graph-title {
+  padding-left: 55px;
+  padding-top: 15px;
+  margin-bottom: 4px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.graph-sub-title {
+  margin: 0;
+  margin-left: 55px;
+  margin-bottom: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #858585;
+}
+
+.bottom-card {
+  margin-top: 20px;
+  width: 45%;
+  border-radius: 20px;
+  height: 230px;
+  background-color: white;
+  padding: 15px;
+}
+.bottom-card-title {
+  height: 22px;
+  margin-bottom: 15px;
+}
+.fs-14 {
+  margin: 0;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.green-bar {
+  height: 50px;
+  border: 5px solid #9bdd7c;
+  margin-bottom: 15px;
+}
+.purple-bar {
+  height: 50px;
+  border: 5px solid #6972c4;
+}
+.schedule-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  height: 17px;
+}
+.schedule-sub-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #999999;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.schedule {
+  text-align: start;
+}
+.green-circle {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #98d89e;
+}
+.pink-circle {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #ee8484;
+}
+.yellow-circle {
+  background: #f6dc7d;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+}
