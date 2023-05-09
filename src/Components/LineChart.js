@@ -15,7 +15,7 @@ const RechartsExample = () => {
   const [data, setData] = useState(null);
   useEffect(() => {
     fetchData();
-  });
+  }, []);
   const fetchData = async () => {
     const res = await axios.get(
       "https://yelpcamp-o6sr.onrender.com/api/line-chart-data"
